@@ -4,6 +4,8 @@ import { notFound } from "next/navigation";
 
 import { getCertificateById } from "@/lib/certificates";
 
+export const dynamic = "force-dynamic";
+
 export default async function CertificatePage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
   const certificate = await getCertificateById(id);

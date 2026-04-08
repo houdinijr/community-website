@@ -4,6 +4,8 @@ import { SectionHeading } from "@/components/section-heading";
 import { SiteShell } from "@/components/site-shell";
 import { getSiteContent } from "@/lib/site-content-store";
 
+export const dynamic = "force-dynamic";
+
 export default async function ActivitiesPage() {
   const content = await getSiteContent();
 
