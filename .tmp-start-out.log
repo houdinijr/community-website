@@ -1,0 +1,10 @@
+
+> congolese-community-zimbabwe@1.0.0 start
+> next start --hostname 127.0.0.1 --port 3031
+
+   ▲ Next.js 15.5.14
+   - Local:        http://127.0.0.1:3031
+   - Network:      http://127.0.0.1:3031
+
+ ✓ Starting...
+ ✓ Ready in 464ms
